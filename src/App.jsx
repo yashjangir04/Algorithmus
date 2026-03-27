@@ -3,6 +3,8 @@ import Navbar from '../src/components/Navbar';
 import Hero from '../src/components/Hero';
 import Events from './components/Events';
 import Footer from './components/Footer';
+import About from './components/About';
+import Members from './components/Members'
 
 const App = () => {
   return (
@@ -10,7 +12,9 @@ const App = () => {
       <Navbar />
       <main>
         <Hero />
+        <About/>
         <Events />
+        <Members />
         <Footer />
       </main>
     </div>
