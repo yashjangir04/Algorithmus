@@ -41,26 +41,6 @@ const secondYearMembers = [
   },
 ];
 
-// function MemberCard({ name, image }) {
-//   return (
-//     <div className="group border border-white/10 bg-[#050505] overflow-hidden transition-all duration-300 hover:border-white/20 hover:bg-white/[0.03]">
-//       <div className="aspect-square w-full overflow-hidden border-b border-white/10">
-//         <img
-//           src={image}
-//           alt={name}
-//           className="h-full w-full object-cover grayscale opacity-85 transition-all duration-500 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-[1.03]"
-//         />
-//       </div>
-
-//       <div className="px-4 py-4 text-center">
-//         <p className="text-base md:text-lg font-bold uppercase tracking-widest text-white">
-//           {name}
-//         </p>
-//       </div>
-//     </div>
-//   );
-// }
-
 function MemberCard({ name, image, role }) {
   return (
     <div className="group border border-white/10 bg-[#050505] overflow-hidden transition-all duration-300 hover:border-white/20 hover:bg-white/[0.03]">
