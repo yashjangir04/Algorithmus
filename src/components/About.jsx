@@ -30,7 +30,7 @@ export default function About() {
           <img
             src="/logo.png"
             alt="Algorithmus Logo"
-            className="w-44 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+            className="w-44 transition-all duration-500"
           />
         </div>
 

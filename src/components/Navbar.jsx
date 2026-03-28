@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} 
-              className="p-2 text-neutral-400 hover:text-white transition-colors"
+              className="p-2 text-neutral-400 hover:text-white transition-colors cursor-pointer"
             >
               {isMobileMenuOpen ? <FiX className="w-6 h-6" /> : <FiMenu className="w-6 h-6" />}
             </button>
