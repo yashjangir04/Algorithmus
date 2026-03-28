@@ -115,7 +115,7 @@ const Hero = () => {
         </h1>
         
         <h3 className="hero-subtitle invisible text-xl md:text-2xl text-neutral-400 font-light tracking-wide mt-2">
-          The Official Coding Club of <span className="font-semibold text-white">IIIT Kota</span>
+          Competitive Programming Club of <span className="font-semibold text-white">IIIT Kota</span>
         </h3>
         
         <p className="hero-desc invisible font-jetbrains max-w-2xl mx-auto mt-8 text-sm md:text-base text-neutral-500 font-light leading-relaxed">
